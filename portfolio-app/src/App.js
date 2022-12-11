@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import image from "./images/tents2.jpg"; 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          BASIC PORTFOLIO MESSAGE
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Box>
+          <img src={image} width="100%" />
+          Daniel Finger
+        </Box>
       </header>
     </div>
   );
